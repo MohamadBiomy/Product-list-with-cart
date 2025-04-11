@@ -1,10 +1,10 @@
 [
 {
 "image": {
-    "thumbnail": "/images/image-waffle-thumbnail.png",
-    "mobile": "/images/image-waffle-mobile.png",
-    "tablet": "/images/image-waffle-tablet.png",
-    "desktop": "/images/image-waffle-desktop.png"
+    "thumbnail": "images/image-waffle-thumbnail.png",
+    "mobile": "images/image-waffle-mobile.png",
+    "tablet": "images/image-waffle-tablet.png",
+    "desktop": "images/image-waffle-desktop.png"
 },
 "name": "Waffle with Berries",
 "category": "Waffle",
