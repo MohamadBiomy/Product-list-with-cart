@@ -168,6 +168,10 @@ nav .bought-items .item .remove:hover {
   border-color: var(--rose-900-text);
 }
 @media (min-width: 600px) {
+  nav {
+    position: sticky;
+    top: 30px;
+  }
   nav .bought-items .item {
     padding: 18px 0px;
   }
