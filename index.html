@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+  <!-- Font Awesome Icons Library -->
+  <link rel="stylesheet" href="CSS/all.min.css">
+  <!-- main css styling file -->
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>Product list with cart</title>
+</head>
+<body>
+
+  <div class="container">
+    <!-- products -->
+    <main>
+      <h1>Desserts</h1>
+      <div class="products-container">
+      </div>
+    </main>
+    <!-- cart -->
+    <nav>
+      <h2>Your Cart (<span class="num-of-products">0</span>)</h2>
+      <div class="empty-cart">
+        <img src="SVGs/illustration-empty-cart.png" style="user-select: none;" alt="">
+        <p>Your added items will appear here</p>
+      </div>
+
+      <div class="buying-case none">
+        <div class="bought-items">
+
+        </div>
+
+        <div class="final-price">
+          <span>Order Total</span>
+          <span></span>
+        </div>
+
+        <div class="amessage">
+          <img src="SVGs/icon-carbon-neutral.png" alt=""> This is a <span>carbon-neutral</span> delivery
+        </div>
+
+        <button>Confirm Order</button>
+      </div>
+
+    </nav>
+
+    <!-- confirm message -->
+    <div class="confirm">
+      <img src="SVGs/icon-order-confirmed.png" style="user-select: none;" alt="">
+      <h2>Order Confirmed</h2>
+      <p>We hope you enjoy your food!</p>
+      <div class="order-products">
+        <div class="items-box">
+
+        </div>
+        <div class="confirm-price">
+          <p>Order Total</p>
+          <p>&dollar;</p>
+        </div>
+      </div>
+      <button>Start New Order</button>
+    </div>
+
+  </div>
+
+
+  
+  <script src="main.js"></script>
+</body>
+</html>
